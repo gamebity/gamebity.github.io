@@ -4,7 +4,7 @@ function getTextFilesFromFolder() {
   var currentIndex = 0;
   var textFiles = [];
   var path =
-    "https://raw.githubusercontent.com/TechArcade/techarcade.github.io/main/posts/";
+    "https://raw.githubusercontent.com/gamebity/gamebity.github.io/main/posts/";
   function fetchTxtFile(index) {
     var url = path + index + ".txt";
 
